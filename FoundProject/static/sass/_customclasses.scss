@@ -1,0 +1,16 @@
+.banner {
+    width: 100%;
+}
+
+
+.home-post {
+    .pricing-table {
+        .description {
+            height: 70px;
+            overflow: hidden;
+        }
+    }
+    &:hover {
+        background: $iron;
+    }
+}
