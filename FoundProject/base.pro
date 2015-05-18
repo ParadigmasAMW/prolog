@@ -1,4 +1,4 @@
-:- dynamic software/9.
+:- dynamic software/10.
 :- dynamic linguagem/2.
 :- dynamic categoria/2.
 :- dynamic licenca/2.
@@ -10,16 +10,16 @@
 
 %Software(Nome, categoria, linguagem, licença, plataforma,tamanho, tempo inicial, tempo final, valor).
 
-software(atom,ide,coffescript,mit,desktop,_,_,_,0).
-software(savant,educacional,php,'',web,_,'2013-4-17','2013-7-23',5000).
-software('Nazario Contruções',fincanceiro,python,'',web,_,'2014-5-1','2014-7-7',2500).
-software(notepad,ide,'c++',gpl,desktop,_,_,_,0).
-software('devc++',ide,delphi,gpl,desktop,_,_,_,0).
-software(codeBlocks,ide,cplusplus,gpl,desktop,_,_,_,0).
-software(eclipse,ide,java,epl,desktop,_,_,_,0).
-software(netbeans,ide,java,freeware,desktop,_,_,_,0).
-software(gimp,'editor de imagem',c,gplv3,desktop,_,_,_,0).
-software(dauphine,game,javascript,'',web,_,_,_,10000).
+software('1','atom','ide','coffescript','mit','desktop','','','','0').
+software('2','savant','educacional','php','','web','','17/04/2013','23/07/2013','5000').
+software('3','Nazario Contrucoes','fincanceiro','python','','web','','01/05/2014','07/07/2014','2500').
+software('4','notepad','ide','c++','gpl','desktop','','','','0').
+software('5','devc++','ide','delphi','gpl','desktop','','','','0').
+software('6','codeBlocks','ide','cplusplus','gpl','desktop','','','','0').
+software('7','eclipse','ide','java','epl','desktop','','','','0').
+software('8','netbeans','ide','java','freeware','desktop','','','','0').
+software('9','gimp','editor de imagem','c','gplv3','desktop','','','','0').
+software('10','dauphine','game','javascript','','web','','','','10000').
 
 %Especializações
 

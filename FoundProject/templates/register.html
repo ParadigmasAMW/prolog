@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+Register Project | FoundProject
+{% endblock page_title %}
+
+{% block content %}
+  <div class="row">
+    <h1 class="text-center">Register Projects!</h1>
+  </div>
+
+  <form action="/register/" method="POST">{% csrf_token %}
+    <div class="small-12 medium-10 large-7 small-centered row">
+      <div class="small-12 medium-6 large-6 columns">
+        <input type="text" name="proj_name" placeholder="Project Name">
+        <input type="text" name="language" placeholder="Language">
+        <input type="text" name="platform" placeholder="Platform">
+        <input type="text" name="initial_date" placeholder="Initial Date">
+        <input type="text" name="value" placeholder="Value">
+      </div>
+      <div class="small-12 medium-6 large-6 columns">
+        <input type="text" name="category" placeholder="Category">
+        <input type="text" name="license" placeholder="License">
+        <input type="text" name="size" placeholder="Size">
+        <input type="text" name="final_date" placeholder="Final Date">
+        <button class="postfix success">Send!</button>
+      </div>
+    </div>
+  </form>
+{% endblock content %}
